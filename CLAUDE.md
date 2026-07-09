@@ -17,7 +17,7 @@ Read this in full before you make your first change.
 By strict requirement of the project guidelines and covenant, the skills outlined in this document are intended to take precedence over default
 behaviors and should not be treated as mere suggestions.
 
-A clean home is a happy home. A happy home id a well-developed home.
+A clean home is a happy home. A happy home is a well-developed home.
 
 ---
 
@@ -54,6 +54,7 @@ We are making the substrate — not the slop.
 - If you change behavior, change the docs in the same PR.
 - If you add a public API, document it before it ships.
 - Comments explain *why*, not *what*. The code already says what.
+- Leave nothing to be forgotten.
 
 ### Refactor as you go
 
@@ -68,7 +69,7 @@ We are making the substrate — not the slop.
 
 ### Use C++ modules
 
-This one is non-negotiable on all projects. **All C++ code going forward
+This requiement is paramount. **All C++ code going forward
 uses modules (`import`, not `#include`).** C++ has made this
 transition deliberately, we are committed to it, and we will not roll it
 back.
