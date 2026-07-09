@@ -69,7 +69,7 @@ We are making the substrate — not the slop.
 
 ### Use C++ modules
 
-This requiement is paramount. **All C++ code going forward
+This requirement is paramount. **All C++ code going forward
 uses modules (`import`, not `#include`).** C++ has made this
 transition deliberately, we are committed to it, and we will not roll it
 back.
